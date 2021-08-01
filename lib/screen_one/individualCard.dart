@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 
 class IndividualCard extends StatelessWidget {
-  const IndividualCard(
-      {required this.icon,
+  const IndividualCard({
+      required this.icon,
       required this.topCornerText,
       required this.amount,
-      required this.descText});
+      required this.descText
+      });
 
   final Icon icon;
   final String topCornerText;
@@ -35,8 +36,6 @@ class IndividualCard extends StatelessWidget {
           SizedBox(height: 20),
           Flex(
             direction: Axis.vertical,
-            mainAxisAlignment: MainAxisAlignment.end,
-            //  mainAxisSize: MainAxisSize.max,
             children: [
               Align(
                 alignment: Alignment.centerLeft,

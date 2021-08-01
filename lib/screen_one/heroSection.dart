@@ -38,7 +38,7 @@ class HeroSection extends StatelessWidget {
                   color: Colors.white10,
                   borderRadius: BorderRadius.circular(10),
                 ),
-                padding: EdgeInsets.all(5),
+                padding: EdgeInsets.all(10),
                 child: Icon(Icons.auto_graph),
               ),
             ],
