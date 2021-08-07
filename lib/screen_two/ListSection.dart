@@ -30,7 +30,10 @@ class ListSection extends StatelessWidget {
                 onPressed: () {},
                 child: Text(
                   'see all',
-                  style: TextStyle(fontSize: 18, color: Colors.blue),
+                  style: TextStyle(
+                    fontSize: 18,
+                    color: Colors.blue,
+                  ),
                 ),
               ),
             ),
