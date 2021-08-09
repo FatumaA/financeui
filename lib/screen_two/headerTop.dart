@@ -14,8 +14,8 @@ class HeaderTop extends StatelessWidget {
           Text(
             'My Wallet',
             style: TextStyle(
-              fontSize: 26,
-              fontWeight: FontWeight.bold,
+              fontSize: 24,
+              fontWeight: FontWeight.w600,
               color: Colors.white,
             ),
           ),
@@ -27,7 +27,7 @@ class HeaderTop extends StatelessWidget {
             ),
             child: Icon(
               Icons.add_alert_outlined,
-              size: 26,
+              size: 24,
             ),
           ),
         ],
